@@ -1,6 +1,10 @@
-let number;
-console.log(typeof 333);
-let string;
-console.log(typeof 'vor v zakone');
-let boolean;
-console.log(typeof false);
+let number = 555;
+console.log(typeof number,number);
+let string = 'vor v zakone';
+console.log(typeof string, string);
+let boolean = false;
+console.log(typeof boolean,boolean);
+let ad = undefined;
+console.log(typeof undefined,undefined);
+let api = Symbol('Olof');
+console.log(typeof api,api);
