@@ -8,3 +8,9 @@ let ad = undefined;
 console.log(typeof undefined,undefined);
 let api = Symbol('Olof');
 console.log(typeof api,api);
+let user = new Object(236);
+console.log(typeof user,user);
+function BotPost(){
+
+}
+console.log(typeof BotPost,BotPost);
