@@ -22,7 +22,7 @@ let user = JSON.stringify(request.headers);
 fs.appendFileSync("vor.txt", request.url);
 fs.appendFileSync("vor.txt", request.method);
 fs.appendFileSync("vor.txt", user);
-console.log("Запись файла завершена. Содержимое файла:");
+console.log("Окончание:");
 
 };
 http.createServer(requestHandler).listen(3000);
